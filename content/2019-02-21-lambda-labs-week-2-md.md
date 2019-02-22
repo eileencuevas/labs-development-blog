@@ -1,7 +1,7 @@
 ---
 title: Lambda Labs --- Week 2
 date: 2019-02-22T13:00:41.844Z
-cover: /assets/week2-old-vs-new-settings.png
+cover: /assets/approve.jpg
 slug: labs-week-2
 category: Lambda Labs
 tags:
