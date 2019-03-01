@@ -5,7 +5,7 @@ cover: /assets/1.jpg
 slug: labs-week-3
 category: Lambda Labs
 tags:
-  - week3
+  - week 3
 ---
 # Part 1 - Individual Accomplishments this Week
 
