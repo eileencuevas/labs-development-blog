@@ -3,7 +3,7 @@ title: Lambda Labs --- Week 3
 date: 2019-02-28T23:47:41.244Z
 cover: /assets/1.jpg
 slug: labs-week-3
-category: labs
+category: Lambda Labs
 tags:
   - week3
 ---
