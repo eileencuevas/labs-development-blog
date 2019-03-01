@@ -32,16 +32,21 @@ Since our project requires us to add on new functionality to an already existing
 
 ## Detailed Analysis
 
-
+<center>
 
 ![Environment Variables on Netlify](/assets/week1-env.jpg)
 _Some of these names are kinda vague..._
 
+_</center>_
+
 The task I definitely struggled the most with this week was the first Ticket, regarding deployment. I spent a lot of time digging through the existing code to find out exactly where and how Auth0 was being implemented, and even after following the directions that was left for us in the README, I still had to dig around the internet for even more information! After signing up for numerous accounts (thank you for existing, password managers), I managed to gather all of the necessary ingredients I needed for my environment variables on the front end, and it eventually managed to load to the landing page and display the Auth0 signup modal!
 
+<center>
 
 ![Comments in App.js](/assets/week1-appjs.jpg)
 _Still have some doubts about where things are coming from_
+
+_</center>_
 
 After updating the frontend part of the README, I went off to help my two teammates focused on the backend this week. After much, much, _much_ more digging around, we managed to determine where exactly in the code we needed to change some hard-coded things, fixed them, and got the backend deployed as well. The only thing we couldn't manage to do was have the frontend and backend liked up to each other smoothly like it is in the original Team Home's deployed app, but that's a problem for next week.
 
