@@ -48,10 +48,19 @@ Pick one of your tickets and provide a detailed analysis of the work you did.  T
 
 This week's Detailed Analysis is brought to you by the Ticket 4!
 
-> **Ticket 4** - Action Buttons and Animations Galore
-
-* [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/387)
-* [Trello](https://trello.com/c/YmDqS3yT/90-put-the-floating-back-into-the-floating-action-button)
+* > **Ticket 4**
+  >
+  >  - Action Buttons and Animations Galore
+  * >
+    >
+    > [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/387)
+    >
+    >
+  * >
+    >
+    > [Trello](https://trello.com/c/YmDqS3yT/90-put-the-floating-back-into-the-floating-action-button)
+    >
+    >
 
 ![](/assets/week4-documents-new.png "Current view of Documents Tab")
 
@@ -62,7 +71,7 @@ Taking inspiration from all of the documentation surrounding FABs on the Materia
 ![](/assets/week4-fab-zoom.png "Snippet of Many Zoom Components")
 
 <center>
-_Zoom, Zoom, Zoom, Zoom_
+\_Zoom, Zoom, Zoom, Zoom\_
 </center>
 
 In terms of design guidelines, Material Design suggests that all FABs should have an animation upon changing from one component to another. This is to help the user feel as if the buttons themselves are changing as well, which lets the user know that the button can now do something different than the button before it. The animation I decided to go with was Zoom, which would give the FABs the ability to zoom in and off the screen as a user switches from component to component. The cool thing about Zoom is that it was already baked into the Material UI library, so I didn't need to add anything else on that end. The only thing about Zoom is that it only seemed to animate properly as long as all the FABs were located in the same component. I ended up moving all of the FABs and things associated with FABs into their own component for the sake of Material Design, but at least it looks nice.
