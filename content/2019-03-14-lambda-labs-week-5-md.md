@@ -42,15 +42,30 @@ This week, I spent all of my time putting the finishing touches on the styles of
 * **Ticket 7** - Removes Anchor Animations so that the page no longer refreshes automatically
   * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/444)
 
-
 ## Detailed Analysis
 
 Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and include screenshots if appropriate
 
-This week's Detailed Analysis is brought to you by Ticket 3
+This week's Detailed Analysis is brought to you by the Ticket 3!
 
+> [**Ticket 3**](https://github.com/Lambda-School-Labs/labs-team-home/pull/417)
+>
+> Material UI style changes for Inputs and Drop Down menus
 
+The focus of this pull request was to make sure that everything looked as Material Design as possible. That included the few inputs located inside of the `SettingsView` component and the Sort forms that were located in the `MessageBoard`, `Folders`, and `DocumentContainer` Components.  
+
+![](/assets/week5-input.jpg "Code for the Inputs in Settings View")
+
+For the inputs located in the Settings Menu, I attempted to style them like I would style any component using Styled Components, which didn't end up well for me. I could change the color of the background and even change the color of the border to an extent, but I couldn't add any padding no matter how hard I tried! In order to make the inputs have as much padding as their input cousins located in the `Add` modals, I had to change the Inputs from the Material-UI Input component to the Material-UI Textfield component.
+
+With that complete, I had to focus on my next ~~headache~~ mission, which involved the unstyled sort menus located throughout the site.
+
+![](/assets/week5-sort.jpg "Code for Drop Down Menus")
+
+For the sort drop down menus, I needed them to look similar to the input forms. I decided to use the `Select` Material-UI component by itself at first as it seemed like it would fit my needs with little issue. Like the inputs above, I had tried to style the component using styled components to no avail. I could not add a background color to `Select` no matter what I did. After some much digging, I managed to find a solution and get the sort forms to look like they currently do. In order to achieve this, I needed to put together two Material-UI components that would help me achieve this effect: `OutlinedInput` and `Select`. The `OutlinedInput` provided the rounded look I needed for the menu to look like our inputs while the `Select` component provided the rest. 
+
+![](/assets/week5-sortform.png "Implementation of the Menu")
 
 # Part 2 - Weekly Reflection
 
-As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to bring an application to completion. The 90-90 rule is a quip referencing the very real difficulty of truly completing a project. Describe some of the final tasks that were the most difficult for your team to resolve - challenging bugs, layout and presentation woes, or anything else that was easy to get mostly working, but hard to get perfect.
+In all, working on this experimental team for Labs has been a big learning experience. We spent a lot of time dealing with issues stemming from choices made by the previous team as well as issues stemming from our own choices. We went into every week wondering if we should just replace entire sections of the previous teams' work, including the entire backend of the project. However, we knew that that would take an extraordinary amount of work to pull off successfully, so we continued to work around our limitations. Even though a lot of the design of the final site involves design choices that I would not make had my team been a non-experimental team, I'm still pretty proud of how far we've come.
