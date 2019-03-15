@@ -1,7 +1,7 @@
 ---
 title: Lambda Labs --- Week 5
 date: 2019-03-15T02:26:22.167Z
-cover: /assets/week4-state.png
+cover: /assets/image-3-.png
 slug: labs-week-5
 category: Lambda Labs
 tags:
@@ -13,7 +13,7 @@ Github handle: [eileencuevas](https://github.com/eileencuevas)
 
 Personal Branch: [`frontend/eileen`](https://github.com/Lambda-School-Labs/labs-team-home/tree/frontend/eileen)
 
-Provide a paragraph (5-8 sentences) summarizing the work you did over the course of this sprint, including the challenges you faced, the tools you used, and your accomplishments
+This week, I spent all of my time putting the finishing touches on the styles of the site. I also spent time working with Kai on the brand new Landing page, helping him with writing the code for it and providing help with styling it. In addition to that, I also spent time helping with the other presentation aspects of the site, namely the logo and video. Because we were asked to rebrand the site at last minute, we needed a new logo, and I was in charge of implementing the logo that we chose in a matter that matches the color scheme of the site. This implementation was also used in the video we made (which I had to string together and render).
 
 ## Tasks Pulled
 
@@ -46,6 +46,8 @@ Provide a paragraph (5-8 sentences) summarizing the work you did over the course
 ## Detailed Analysis
 
 Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and include screenshots if appropriate
+
+This week's Detailed Analysis is brought to you by Ticket 3
 
 
 
