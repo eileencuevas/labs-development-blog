@@ -9,6 +9,10 @@ tags:
 ---
 # Part 1 - Individual Accomplishments this Sprint
 
+Github handle: [eileencuevas](https://github.com/eileencuevas)
+
+Personal Branch: [`frontend/eileen`](https://github.com/Lambda-School-Labs/labs-team-home/tree/frontend/eileen)
+
 Provide a paragraph (5-8 sentences) summarizing the work you did over the course of this sprint, including the challenges you faced, the tools you used, and your accomplishments
 
 
