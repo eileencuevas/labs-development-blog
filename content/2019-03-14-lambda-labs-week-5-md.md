@@ -15,9 +15,35 @@ Personal Branch: [`frontend/eileen`](https://github.com/Lambda-School-Labs/labs-
 
 Provide a paragraph (5-8 sentences) summarizing the work you did over the course of this sprint, including the challenges you faced, the tools you used, and your accomplishments
 
+## Tasks Pulled
+
+### Front End
+
+* **Ticket 1** - Modal Scrollbars no more
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/409)
+  * [Trello](https://trello.com/c/o5bScvY1/117-fix-modals-so-that-the-scrollbar-doesnt-show-up-outside-of-the-modal)
+* **Ticket 2** - Folders' New Look
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/412)
+  * [Trello](https://trello.com/c/5CzXNpln/116-change-folder-styling)
+* **Ticket 3** - Mo' Material UI
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/417)
+  * [Trello](https://trello.com/c/2fUTLsv2/49-look-at-and-standardize-styling-for-front-end)
+* **Ticket 4** - The Big Landing Page Update
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/428)
+  * [Trello](https://trello.com/c/mXBzAK3Q/108-landing-page-the-big-one)
+* **Ticket 5** - New Logo!
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/433)
+  * [Trello](https://trello.com/c/1inEXrXv/118-add-new-arq-logo)
+
+### Bug Fixes
+
+* **Ticket 6** - Fixes modals so that they go full screen again
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/418)
+* **Ticket 7** - Removes Anchor Animations so that the page no longer refreshes automatically
+  * [Github](https://github.com/Lambda-School-Labs/labs-team-home/pull/444)
 
 
-Detailed Analysis
+## Detailed Analysis
 
 Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and include screenshots if appropriate
 
